@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/coachCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="code" />
+
+    <TextView
+        android:id="@+id/coachName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="name" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/coachSurname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="surname" />
+
+    <TextView
+        android:id="@+id/coachUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="username" />
+
+    <Button
+        android:id="@+id/btnUpdateName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Change names" />
+
+</LinearLayout>
